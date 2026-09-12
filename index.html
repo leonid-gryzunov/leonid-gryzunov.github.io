@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta
+      name="description"
+      content="Леонид Грызунов — начинающий аналитик данных: Python, машинное обучение и анализ бизнес-процессов."
+    />
+    <title>Леонид Грызунов — Data Analyst</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b0d12'/%3E%3Cpath d='M16 16h9v24h23v8H16z' fill='%236be7d5'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Перейти к содержанию</a>
+
+    <header class="site-header" data-header>
+      <div class="brand">Леонид Грызунов</div>
+      <nav aria-label="Основная навигация">
+        <a href="#about">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a href="#skills">Навыки</a>
+      </nav>
+      <a class="header-link" href="https://github.com/gryzunov4ik-create" target="_blank" rel="noreferrer">
+        GitHub <span aria-hidden="true">↗</span>
+      </a>
+    </header>
+
+    <main id="content">
+      <section class="hero" id="top">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Москва · открыт к предложениям</p>
+          <h1>Леонид<br /><em>Грызунов</em></h1>
+          <p class="hero-role">Data Analyst <span>/</span> ML <span>/</span> Business Analytics</p>
+          <p class="hero-intro">
+            Разбираюсь в данных, моделях и бизнес-процессах. Ищу решения, которые можно
+            не только посчитать, но и ясно объяснить.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Смотреть проекты</a>
+            <a class="button button-ghost" href="#about">Коротко обо мне</a>
+          </div>
+        </div>
+
+        <div class="portrait-wrap reveal" style="--delay: 120ms">
+          <div class="portrait-frame">
+            <img
+              src="./assets/leonid-portrait.png"
+              alt="Портрет Леонида Грызунова"
+              width="1120"
+              height="1400"
+            />
+          </div>
+          <div class="portrait-note">
+            <span>НИУ ВШЭ</span>
+            <span>Бизнес-информатика · 3 курс</span>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="about section" id="about">
+        <div class="section-label reveal">Обо мне</div>
+        <div class="about-main reveal">
+          <h2>Соединяю технический анализ с пониманием бизнеса.</h2>
+          <p>
+            Учусь на бизнес-информатике в НИУ ВШЭ. В командных и учебных проектах
+            собирал и очищал данные, проводил статистический анализ, строил ML-модели
+            и проектировал процессы AS-IS / TO-BE.
+          </p>
+        </div>
+        <div class="facts reveal" style="--delay: 100ms">
+          <div class="fact">
+            <strong>НИУ ВШЭ</strong>
+            <span>бизнес-информатика · 3 курс</span>
+          </div>
+          <div class="fact">
+            <strong>Python · ML · BPMN</strong>
+            <span>данные, модели и бизнес-процессы</span>
+          </div>
+          <div class="fact">
+            <strong>Москва</strong>
+            <span>офис, гибрид или удалённо</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects">
+        <div class="section-heading reveal">
+          <div class="section-label">Проекты</div>
+          <p>Практические задачи из учебных и командных работ.</p>
+        </div>
+
+        <article class="project project-featured reveal">
+          <div class="project-topline">
+              <span class="project-number">Бизнес-анализ</span>
+              <span class="project-kind">Командный учебный проект</span>
+          </div>
+          <div class="project-content">
+            <div>
+              <h3>Оптимизация процессов научной лаборатории</h3>
+              <p>
+                Описали текущее состояние процессов и спроектировали целевую модель:
+                BPMN TO-BE, SIPOC, матрицу ответственности и систему KPI. Для внедрения
+                изменений использовали логику ADKAR.
+              </p>
+            </div>
+            <ul class="project-results" aria-label="Основные результаты">
+              <li><span>Фокус</span> AS-IS → TO-BE</li>
+              <li><span>Артефакты</span> BPMN · SIPOC · RACI</li>
+              <li><span>Инструмент</span> Sila Union</li>
+            </ul>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project reveal">
+            <div class="project-topline">
+              <span class="project-number">Аналитика данных</span>
+              <span class="project-kind">Командный учебный проект</span>
+            </div>
+            <h3>Поведение пользователей в e-commerce</h3>
+            <p>
+              Исследовали путь пользователя по clickstream-данным: очистили события,
+              собрали сессии и проверили статистические гипотезы о времени визита и
+              порядке просмотра товаров.
+            </p>
+            <div class="project-points">
+              <span>Сессионная аналитика</span>
+              <span>Проверка гипотез</span>
+              <span>Интерпретация поведения</span>
+            </div>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>SciPy</span><span>Plotly</span></div>
+          </article>
+
+          <article class="project reveal" style="--delay: 80ms">
+            <div class="project-topline">
+              <span class="project-number">Сбор данных</span>
+              <span class="project-kind">Командный учебный проект</span>
+            </div>
+            <h3>GastroGuide: данные о ресторанах Европы</h3>
+            <p>
+              Собрали прототип пайплайна для исследования рынка общепита: получили
+              данные Google Places по европейским городам, удалили дубликаты и обогатили
+              набор сведениями из открытых источников.
+            </p>
+            <div class="project-points">
+              <span>Сбор через API</span>
+              <span>Очистка и дедупликация</span>
+              <span>Сегментация заведений</span>
+            </div>
+            <div class="tags"><span>Python</span><span>REST API</span><span>BeautifulSoup</span><span>Git</span></div>
+          </article>
+        </div>
+
+        <article class="project project-wide reveal">
+          <div class="project-topline">
+            <span class="project-number">Машинное обучение</span>
+            <span class="project-kind">Командный учебный проект</span>
+          </div>
+          <div class="project-wide-copy">
+            <div>
+              <h3>Исследование рынка труда в IT</h3>
+              <p>
+                Подготовили выборку вакансий, обработали категориальные и текстовые
+                признаки и сравнили несколько моделей оценки зарплаты. Дополнительно
+                разработали исследовательский прототип ранжирования вакансий и описали
+                ограничения выбранного подхода.
+              </p>
+            </div>
+            <div class="result-stack">
+              <div><span>Задача</span><strong>оценка зарплаты</strong></div>
+              <div><span>Признаки</span><strong>категории и текст</strong></div>
+              <div><span>Подход</span><strong>сравнение моделей</strong></div>
+            </div>
+          </div>
+          <div class="tags"><span>scikit-learn</span><span>TF-IDF</span><span>GridSearchCV</span><span>Random Forest</span></div>
+        </article>
+      </section>
+
+      <section class="skills section" id="skills">
+        <div class="section-label reveal">Навыки</div>
+        <div class="skills-layout">
+          <div class="skills-copy reveal">
+            <h2>От сырых данных<br />до понятного вывода.</h2>
+            <p>
+              Сильнее всего — подготовка и исследование данных, проверка гипотез и
+              прототипирование моделей. Отдельный фокус — визуальное описание процессов.
+            </p>
+          </div>
+          <div class="skill-list reveal" style="--delay: 100ms">
+            <div><span>01</span><strong>Python · Pandas · NumPy</strong><small>подготовка и анализ данных</small></div>
+            <div><span>02</span><strong>SciPy · статистика</strong><small>гипотезы и интерпретация</small></div>
+            <div><span>03</span><strong>scikit-learn</strong><small>модели и оценка качества</small></div>
+            <div><span>04</span><strong>Matplotlib · Seaborn · Plotly</strong><small>визуализация результатов</small></div>
+            <div><span>05</span><strong>BPMN · SIPOC · RACI</strong><small>анализ бизнес-процессов</small></div>
+            <div><span>06</span><strong>REST API · Git</strong><small>сбор данных и командная работа</small></div>
+            <div><span>07</span><strong>Микроэкономика · макроэкономика</strong><small>экономическая логика и бизнес-контекст</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="education section">
+        <div class="section-label reveal">Образование и опыт</div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-date">2024 — 2028</span>
+            <div>
+              <h3>НИУ ВШЭ · Высшая школа бизнеса</h3>
+              <p>Бакалаврская программа «Бизнес-информатика» · 3 курс</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-date">1,5+ года</span>
+            <div>
+              <h3>Частная преподавательская практика</h3>
+              <p>
+                Индивидуальные занятия, планирование программы и самостоятельная
+                коммуникация с учениками и родителями. Отзывы и профиль будут добавлены.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section reveal">
+        <p class="eyebrow"><span></span> Открыт к предложениям</p>
+        <h2>Ищу стартовую роль<br />на стыке данных и бизнеса.</h2>
+        <p>
+          Рассматриваю Data Analytics, Business Analytics, Data Science и задачи вокруг
+          машинного обучения. Москва · офис, гибрид или удалённо.
+        </p>
+        <a class="button button-primary" href="https://github.com/gryzunov4ik-create" target="_blank" rel="noreferrer">
+          Открыть GitHub <span aria-hidden="true">↗</span>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span data-year></span> Леонид Грызунов</span>
+      <span>Москва</span>
+    </footer>
+  </body>
+</html>
