@@ -2,7 +2,7 @@
 
 Персональный сайт для позиций на стыке анализа данных, машинного обучения и бизнес-аналитики.
 
-Сайт: [gryzunov4ik-create.github.io](https://gryzunov4ik-create.github.io/)
+Сайт: [leonid-gryzunov.github.io](https://leonid-gryzunov.github.io/)
 
 ## Содержание
 
